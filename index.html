@@ -34,6 +34,18 @@
         <div id="display">
             <button id="button">COOL STUFF</button>
         </div>
+        
+        <script>
+            var myBut = document.getElementById("button");
+            var disp = document.getElementById("display");
+            
+            myBut.onclick = function(){
+                disp.style.backgroundColor = "#AAA";
+                myBut.style.width = "100px";
+                myBut.style.height = "60px";
+            }
+        </script>
+        
     </body>
     
 </html>
